@@ -1,0 +1,55 @@
+SELECT *
+FROM FOOD_DES
+WHERE LOWER(LONG_DESC) LIKE LOWER('%%')
+AND   LOWER(LONG_DESC) LIKE LOWER('%%')
+--Dairy and Egg Products
+--AND   fdgrp_cd = '0100';
+--Spices and Herbs
+--AND fdgrp_cd = '0200';
+--Baby Foods
+--AND fdgrp_cd = '0300';
+--Fats and Oils
+--AND fdgrp_cd = '0400';
+--Poultry Products
+--AND fdgrp_cd = '0500';
+--Soups, Sauces, and Gravies
+--AND fdgrp_cd = '0600';
+--Sausages and Luncheon Meats
+--AND fdgrp_cd = '0700';
+--Breakfast Cereals
+--AND fdgrp_cd = '0800';
+--Fruits and Fruit Juices
+--AND fdgrp_cd = '0900';
+--Pork Products
+--AND fdgrp_cd = '1000';
+--Vegetables and Vegetable Products
+--AND fdgrp_cd = '1100';
+--Nut and Seed Products
+--AND fdgrp_cd = '1200';
+--Beef Products
+--AND fdgrp_cd = '1300';
+--Beverages
+--AND fdgrp_cd = '1400';
+--Finfish and Shellfish Products
+--AND fdgrp_cd = '1500';
+--Legumes and Legume Products
+--AND fdgrp_cd = '1600';
+--Lamb, Veal, and Game Products
+--AND fdgrp_cd = '1700';
+--Baked Products
+--AND fdgrp_cd = '1800';
+--Sweets
+--AND fdgrp_cd = '1900';
+--Cereal Grains and Pasta
+--AND fdgrp_cd = '2000';
+--Fast Foods
+--AND fdgrp_cd = '2100';
+--Meals, Entrees, and Side Dishes
+--AND fdgrp_cd = '2200';
+--Snacks
+--AND fdgrp_cd = '2500';
+--American Indian/Alaska Native Foods
+--AND fdgrp_cd = '3500';
+--Restaurant Foods
+--AND fdgrp_cd = '3600';
+
